@@ -100,6 +100,15 @@ begin
 
   end;
 
+  
+  if choice = 3 then
+  begin
+
+  writeln ('If you want to calculate the area of your sphere press one, and if you want to calculate the volume of your sphere press two');
+  readln (choice_2);
+
+  end;
+
 
   {* write two empty lines at the end of the program *}
   writeln;
