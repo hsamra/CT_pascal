@@ -6,6 +6,8 @@ var
   choice_2: integer;
   a: real;
   res: real;
+  b: real;
+  c: real;
 
 begin
 
@@ -60,6 +62,24 @@ begin
   
   end;
 
+  if choice_2 = 1 then
+  begin
+
+    writeln ('enter side a');
+    readln (a);
+
+    writeln ('enter side b');
+    readln (b);
+
+    writeln ('enter side c');
+    readln (c);
+
+    res:= (2 * a * b) + (2 * b * c) + (2 * a * c);
+    
+    write ('Your result is');
+    write (res);
+
+  end;
 
 
   {* write two empty lines at the end of the program *}
