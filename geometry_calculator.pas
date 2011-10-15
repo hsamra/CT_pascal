@@ -81,9 +81,29 @@ begin
 
   end;
 
+  if choice_2 = 2 then
+  begin   
+
+    writeln ('enter side a');
+    readln (a);
+
+    writeln ('enter side b');
+    readln (b);
+
+    writeln ('enter side c');
+    readln (c);
+
+    res:= a * b * c;
+    
+    write ('Your result is');
+    write (res);
+
+  end;
+
 
   {* write two empty lines at the end of the program *}
   writeln;
   writeln;
+
 
 end.
