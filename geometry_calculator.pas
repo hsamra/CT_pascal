@@ -7,10 +7,7 @@ var
 
   choice: integer;
   choice_2: integer;
-  choice_3: integer;
-  choice_4: integer;
-  choice_5: integer;
-  choice_6: integer;
+
 
   a: real;
   res: real;
@@ -47,6 +44,7 @@ begin
 
   readln (choice);
 
+
   if (choice = 1) then
   begin
 
@@ -55,9 +53,7 @@ begin
     writeln ('If you want to calculate the area of your cube press one, and if you want to calculate the volume of your cube press two');
     readln (choice_2);
 
-  end;
-
-
+  
     if (choice_2 = 1) then
     begin
 
@@ -87,6 +83,8 @@ begin
     
     end;
 
+  end;
+
 
   if choice = 2 then
   begin
@@ -94,12 +92,10 @@ begin
     clrScr;
 
     writeln ('If you want to calculate the area of your prism press one, and if you want to calculate the volume of your prism press two');
-    readln (choice_3);
+    readln (choice_2);
   
-  end;
 
-
-    if choice_3= 1 then
+    if choice_2 = 1 then
     begin
   
       clrScr;
@@ -123,7 +119,7 @@ begin
 
 
 
-    if choice_3 = 2 then
+    if choice_2 = 2 then
     begin   
 
       clrScr;
@@ -145,6 +141,8 @@ begin
 
     end;
 
+  end;
+
   
   if choice = 3 then
   begin
@@ -152,12 +150,10 @@ begin
     clrScr;
 
     writeln ('If you want to calculate the area of your sphere press one, and if you want to calculate the volume of your sphere press two');
-    readln (choice_4);
+    readln (choice_2);
 
-  end;
-
-
-    if choice_4 = 1 then
+  
+    if choice_2 = 1 then
     begin
 
       clrScr;
@@ -174,7 +170,7 @@ begin
     end;
 
 
-    if choice_4 = 2 then
+    if choice_2 = 2 then
     begin
 
       clrScr;
@@ -190,6 +186,8 @@ begin
    
     end;
 
+  end;
+
 
   if choice = 4 then
   begin
@@ -197,12 +195,10 @@ begin
     clrScr;
 
     writeln ('If you want to calculate the area of your cone press one, and if you want to calculate the volume of your cone press two');
-    readln (choice_5);
-
-    end;
+    readln (choice_2);
 
 
-    if choice_5 = 1 then
+    if choice_2 = 1 then
     begin
  
       clrScr;
@@ -222,7 +218,7 @@ begin
     end;
 
   
-    if choice_5 = 2 then
+    if choice_2 = 2 then
     begin
 
       clrScr;
@@ -241,19 +237,19 @@ begin
 
     end;
 
+  end;
+
 
   if choice = 5 then
   begin
 
-  clrScr;
+    clrScr;
 
-  writeln ('If you want to calculate the area of your cylinder press one, and if you want to calculate the volume of your cylinder press two');
-  readln (choice_6);
+    writeln ('If you want to calculate the area of your cylinder press one, and if you want to calculate the volume of your cylinder press two');
+    readln (choice_2);
    
-  end;
-
-
-    if choice_6 = 1 then
+  
+    if choice_2 = 1 then
     begin
 
       clrScr;
@@ -273,7 +269,7 @@ begin
     end;
 
 
-    if choice_6 = 2 then
+    if choice_2 = 2 then
     begin
 
       clrScr;
@@ -290,6 +286,7 @@ begin
       write ('Your result is');
       write (res);
 
+    end;
 
   end;
 
