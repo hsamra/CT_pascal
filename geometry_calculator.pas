@@ -9,10 +9,13 @@ var
   b: real;
   c: real;
   r: real;
-  
+  s: real;
+  h: real;
+
 const
 
 pi = 3.1415926535897932;
+
 
 begin
 
@@ -139,6 +142,50 @@ begin
     write (res);
    
   end;
+
+  
+  if choice = 4 then
+  begin
+
+    writeln ('If you want to calculate the area of your cone press one, and if you want to calculate the volume of your one press two');
+    readln (choice_2);
+
+  end;
+
+  if choice_2 = 1 then
+  begin
+
+    writeln ('enter radius r');
+    readln (r);
+  
+    writeln ('enter enter side s');
+    readln (s);
+
+    res:= (r * pi * r) + ( r * pi * s);
+   
+    write ('Your result is');
+    write (res);
+
+  end;
+  
+  if choice_2 = 2 then
+  begin
+
+    writeln ('enter radius r');
+    readln (r);
+
+    writeln ('enter height h');
+    readln (h);
+
+    res:= 1/3 * r * r * h * pi;
+
+    write ('Your result is');
+    write (res);
+
+  end;
+
+
+
 
 
  
