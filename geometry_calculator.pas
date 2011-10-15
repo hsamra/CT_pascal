@@ -147,7 +147,7 @@ begin
   if choice = 4 then
   begin
 
-    writeln ('If you want to calculate the area of your cone press one, and if you want to calculate the volume of your one press two');
+    writeln ('If you want to calculate the area of your cone press one, and if you want to calculate the volume of your cone press two');
     readln (choice_2);
 
   end;
@@ -184,6 +184,29 @@ begin
 
   end;
 
+  if choice = 5 then
+  begin
+
+    writeln ('If you want to calculate the area of your cylinder press one, and if you want to calculate the volume of your cylinder press two');
+    readln (choice_2);
+   
+  end;
+
+  if choice_2 = 1 then
+  begin
+
+    writeln ('enter radius r');
+    readln (r);
+
+    writeln ('enter height h');
+    readln (h);
+
+    res:= (2 * r * pi * r) + (2 * r * pi * h);
+   
+    write ('Your result is');
+    write (res);
+
+  end;
 
 
 
