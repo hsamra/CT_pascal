@@ -63,8 +63,8 @@ begin
       readln (a);
       TextColor(Blue);
       res:= 6 * a * a;
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
     
     end;
 
@@ -78,8 +78,8 @@ begin
       readln (a);
       TextColor(Blue);
       res:= a * a * a;
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
     
     end;
 
@@ -112,8 +112,8 @@ begin
       TextColor(Blue);
       res:= (2 * a * b) + (2 * b * c) + (2 * a * c);
    
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
 
     end;
 
@@ -136,8 +136,8 @@ begin
       TextColor(Blue);
       res:= a * b * c;
     
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
 
     end;
 
@@ -164,8 +164,8 @@ begin
       TextColor(Blue);
       res:= 4 * pi * r * r;
   
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
    
     end;
 
@@ -181,8 +181,8 @@ begin
       TextColor(Blue);
       res:= 4/3 * r * r * r * pi;
     
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
    
     end;
 
@@ -212,8 +212,8 @@ begin
       TextColor(Blue);
       res:= (r * pi * r) + ( r * pi * s);
    
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
 
     end;
 
@@ -232,8 +232,8 @@ begin
       TextColor(Blue);
       res:= 1/3 * r * r * h * pi;
 
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
 
     end;
 
@@ -263,8 +263,8 @@ begin
       TextColor(Blue);
       res:= (2 * r * pi * r) + (2 * r * pi * h);
    
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
 
     end;
 
@@ -283,8 +283,8 @@ begin
       TextColor(Blue);
       res:= r * r * h * pi;
    
-      write ('Your result is');
-      write (res);
+      write ('Your result is ');
+      write (res:6:2);
 
     end;
 
@@ -295,5 +295,6 @@ begin
   writeln;
   writeln;
 
+readln;
 
 end.
