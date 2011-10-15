@@ -10,7 +10,7 @@ var
   choice_3: integer;
   choice_4: integer;
   choice_5: integer;
-  choice_6: integer;
+choice_6: integer;
 
   a: real;
   res: real;
@@ -50,148 +50,144 @@ begin
   if (choice = 1) then
   begin
 
-  clrScr;
+    clrScr;
 
     writeln ('If you want to calculate the area of your cube press one, and if you want to calculate the volume of your cube press two');
     readln (choice_2);
 
   end;
 
-  if (choice_2 = 1) then
-  begin
+    if (choice_2 = 1) then
+    begin
 
-  clrScr;
+      clrScr;
 
-
-    writeln ('enter the side a');
-    readln (a);
-    TextColor(Blue);
-    res:= 6 * a * a;
-    write ('Your result is');
-    write (res);
+      writeln ('enter the side a');
+      readln (a);
+      TextColor(Blue);
+      res:= 6 * a * a;
+      write ('Your result is');
+      write (res);
     
   
-  end;
+    end;
 
-  if (choice_2 = 2) then
-  begin
+
+    if (choice_2 = 2) then
+    begin
   
-  clrScr;
+      clrScr;
 
-
-    writeln ('enter side a');
-    readln (a);
-    TextColor(Blue);
-    res:= a * a * a;
-    write ('Your result is');
-    write (res);
+      writeln ('enter side a');
+      readln (a);
+      TextColor(Blue);
+      res:= a * a * a;
+      write ('Your result is');
+      write (res);
     
   
-  end;
+    end;
 
   if choice = 2 then
   begin
   
-  clrScr;
+    clrScr;
 
     writeln ('If you want to calculate the area of your prism press one, and if you want to calculate the volume of your prism press two');
     readln (choice_3);
   
   end;
 
-  if choice_3= 1 then
-  begin
+    if choice_3= 1 then
+    begin
   
-  clrScr;
+    clrScr;
 
 
-    writeln ('enter side a');
-    readln (a);
+      writeln ('enter side a');
+      readln (a);
 
-    writeln ('enter side b');
-    readln (b);
+      writeln ('enter side b');
+      readln (b);
 
-    writeln ('enter side c');
-    readln (c);
+      writeln ('enter side c');
+      readln (c);
 
-    TextColor(Blue);
-    res:= (2 * a * b) + (2 * b * c) + (2 * a * c);
+      TextColor(Blue);
+      res:= (2 * a * b) + (2 * b * c) + (2 * a * c);
    
-    write ('Your result is');
-    write (res);
+      write ('Your result is');
+      write (res);
 
-  end;
+    end;
 
-  if choice_3 = 2 then
-  begin   
+    if choice_3 = 2 then
+    begin   
 
-  clrScr;
+    clrScr;
 
 
-    writeln ('enter side a');
-    readln (a);
+      writeln ('enter side a');
+      readln (a);
 
-    writeln ('enter side b');
-    readln (b);
+      writeln ('enter side b');
+      readln (b);
 
-    writeln ('enter side c');
-    readln (c);
+      writeln ('enter side c');
+      readln (c);
 
-    TextColor(Blue);
-    res:= a * b * c;
+      TextColor(Blue);
+      res:= a * b * c;
     
-    write ('Your result is');
-    write (res);
+      write ('Your result is');
+      write (res);
 
-  end;
+    end;
 
   
   if choice = 3 then
   begin
  
-  clrScr;
+    clrScr;
 
-
-  writeln ('If you want to calculate the area of your sphere press one, and if you want to calculate the volume of your sphere press two');
-  readln (choice_4);
+    writeln ('If you want to calculate the area of your sphere press one, and if you want to calculate the volume of your sphere press two');
+    readln (choice_4);
 
   end;
 
-  if choice_4 = 1 then
-  begin
+    if choice_4 = 1 then
+    begin
 
-  clrScr;
+      clrScr;
 
+      writeln ('enter radius r');
+      readln (r);
 
-    writeln ('enter radius r');
-    readln (r);
-
-    TextColor(Blue);
-    res:= 4 * pi * r * r;
+      TextColor(Blue);
+      res:= 4 * pi * r * r;
   
-    write ('Your result is');
-    write (res);
+      write ('Your result is');
+      write (res);
    
-  end;
+    end;
 
-  if choice_4 = 2 then
-  begin
+    if choice_4 = 2 then
+    begin
 
-  clrScr;
+      clrScr;
 
+      writeln ('enter radius r');
+      readln (r);
 
-    writeln ('enter radius r');
-    readln (r);
-
-    TextColor(Blue);
-    res:= 4/3 * r * r * r * pi;
+      TextColor(Blue);
+      res:= 4/3 * r * r * r * pi;
     
-    write ('Your result is');
-    write (res);
+      write ('Your result is');
+      write (res);
    
-  end;
+    end;
 
-  
+
   if choice = 4 then
   begin
 
@@ -201,96 +197,92 @@ begin
     writeln ('If you want to calculate the area of your cone press one, and if you want to calculate the volume of your cone press two');
     readln (choice_5);
 
-  end;
+    end;
 
-  if choice_5 = 1 then
-  begin
+    if choice_5 = 1 then
+    begin
+ 
+      clrScr;
 
-  clrScr;
-
-
-    writeln ('enter radius r');
-    readln (r);
+      writeln ('enter radius r');
+      readln (r);
   
-    writeln ('enter enter slant height s');
-    readln (s);
+      writeln ('enter enter slant height s');
+      readln (s);
 
-    TextColor(Blue);
-    res:= (r * pi * r) + ( r * pi * s);
+      TextColor(Blue);
+      res:= (r * pi * r) + ( r * pi * s);
    
-    write ('Your result is');
-    write (res);
+      write ('Your result is');
+      write (res);
 
   end;
   
-  if choice_5 = 2 then
-  begin
+    if choice_5 = 2 then
+    begin
 
-  clrScr;
+      clrScr;
 
+      writeln ('enter radius r');
+      readln (r);
 
-    writeln ('enter radius r');
-    readln (r);
+      writeln ('enter height h');
+      readln (h);
 
-    writeln ('enter height h');
-    readln (h);
+      TextColor(Blue);
+      res:= 1/3 * r * r * h * pi;
 
-    TextColor(Blue);
-    res:= 1/3 * r * r * h * pi;
+      write ('Your result is');
+      write (res);
 
-    write ('Your result is');
-    write (res);
+    end;
 
-  end;
 
   if choice = 5 then
   begin
 
   clrScr;
 
-
-    writeln ('If you want to calculate the area of your cylinder press one, and if you want to calculate the volume of your cylinder press two');
-    readln (choice_6);
+  writeln ('If you want to calculate the area of your cylinder press one, and if you want to calculate the volume of your cylinder press two');
+  readln (choice_6);
    
   end;
 
-  if choice_6 = 1 then
-  begin
+    if choice_6 = 1 then
+    begin
 
-  clrScr;
+    clrScr;
 
+      writeln ('enter radius r');
+      readln (r);
 
-    writeln ('enter radius r');
-    readln (r);
+      writeln ('enter height h');
+      readln (h);
 
-    writeln ('enter height h');
-    readln (h);
-
-    TextColor(Blue);
-    res:= (2 * r * pi * r) + (2 * r * pi * h);
+      TextColor(Blue);
+      res:= (2 * r * pi * r) + (2 * r * pi * h);
    
-    write ('Your result is');
-    write (res);
+      write ('Your result is');
+      write (res);
 
-  end;
+    end;
 
-  if choice_6 = 2 then
-  begin
+    if choice_6 = 2 then
+    begin
 
-  clrScr;
+      clrScr;
 
+      writeln ('enter radius r');
+      readln (r);
 
-    writeln ('enter radius r');
-    readln (r);
+      writeln ('enter height h');
+      readln (h);
 
-    writeln ('enter height h');
-    readln (h);
-
-    TextColor(Blue);
-    res:= r * r * h * pi;
+      TextColor(Blue);
+      res:= r * r * h * pi;
    
-    write ('Your result is');
-    write (res);
+      write ('Your result is');
+      write (res);
 
   end;
 
