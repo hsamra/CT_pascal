@@ -52,6 +52,13 @@ begin
   
   end;
 
+  if choice = 2 then
+  begin
+  
+    writeln ('If you want to calculate the area of your prism press one, and if you want to calculate the volume of your prism press two');
+    readln (choice_2);
+  
+  end;
 
 
 
