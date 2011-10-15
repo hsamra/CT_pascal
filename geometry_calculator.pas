@@ -127,6 +127,19 @@ begin
    
   end;
 
+  if choice_2 = 2 then
+  begin
+
+    writeln ('enter radius r');
+    readln (r);
+    
+    res:= 4/3 * r * r * r * pi;
+    
+    write ('Your result is');
+    write (res);
+   
+  end;
+
 
  
 
