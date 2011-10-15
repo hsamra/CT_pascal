@@ -52,4 +52,11 @@ begin
   
   end;
 
+
+
+
+  {* write two empty lines at the end of the program *}
+  writeln;
+  writeln;
+
 end.
