@@ -208,6 +208,21 @@ begin
 
   end;
 
+  if choice_2 = 2 then
+  begin
+
+    writeln ('enter radius r');
+    readln (r);
+
+    writeln ('enter height h');
+    readln (h);
+
+    res:= r * r * h * pi;
+   
+    write ('Your result is');
+    write (res);
+
+  end;
 
 
 
