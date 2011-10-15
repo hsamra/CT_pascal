@@ -8,6 +8,11 @@ var
   res: real;
   b: real;
   c: real;
+  r: real;
+  
+const
+
+pi = 3.1415926535897932;
 
 begin
 
@@ -109,8 +114,27 @@ begin
 
   end;
 
+  if choice_2 = 1 then
+  begin
 
-  {* write two empty lines at the end of the program *}
+    writeln ('enter radius r');
+    readln (r);
+
+    res:= 4 * pi * r * r;
+  
+    write ('Your result is');
+    write (res);
+   
+  end;
+
+
+ 
+
+
+
+
+
+ {* write two empty lines at the end of the program *}
   writeln;
   writeln;
 
