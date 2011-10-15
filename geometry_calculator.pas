@@ -10,7 +10,7 @@ var
   choice_3: integer;
   choice_4: integer;
   choice_5: integer;
-choice_6: integer;
+  choice_6: integer;
 
   a: real;
   res: real;
@@ -57,6 +57,7 @@ begin
 
   end;
 
+
     if (choice_2 = 1) then
     begin
 
@@ -69,7 +70,6 @@ begin
       write ('Your result is');
       write (res);
     
-  
     end;
 
 
@@ -85,8 +85,8 @@ begin
       write ('Your result is');
       write (res);
     
-  
     end;
+
 
   if choice = 2 then
   begin
@@ -98,11 +98,11 @@ begin
   
   end;
 
+
     if choice_3= 1 then
     begin
   
-    clrScr;
-
+      clrScr;
 
       writeln ('enter side a');
       readln (a);
@@ -121,11 +121,12 @@ begin
 
     end;
 
+
+
     if choice_3 = 2 then
     begin   
 
-    clrScr;
-
+      clrScr;
 
       writeln ('enter side a');
       readln (a);
@@ -155,6 +156,7 @@ begin
 
   end;
 
+
     if choice_4 = 1 then
     begin
 
@@ -170,6 +172,7 @@ begin
       write (res);
    
     end;
+
 
     if choice_4 = 2 then
     begin
@@ -191,13 +194,13 @@ begin
   if choice = 4 then
   begin
 
-  clrScr;
-
+    clrScr;
 
     writeln ('If you want to calculate the area of your cone press one, and if you want to calculate the volume of your cone press two');
     readln (choice_5);
 
     end;
+
 
     if choice_5 = 1 then
     begin
@@ -216,7 +219,8 @@ begin
       write ('Your result is');
       write (res);
 
-  end;
+    end;
+
   
     if choice_5 = 2 then
     begin
@@ -248,10 +252,11 @@ begin
    
   end;
 
+
     if choice_6 = 1 then
     begin
 
-    clrScr;
+      clrScr;
 
       writeln ('enter radius r');
       readln (r);
@@ -266,6 +271,7 @@ begin
       write (res);
 
     end;
+
 
     if choice_6 = 2 then
     begin
@@ -284,17 +290,11 @@ begin
       write ('Your result is');
       write (res);
 
+
   end;
 
 
-
- 
-
-
-
-
-
- {* write two empty lines at the end of the program *}
+  {* write two empty lines at the end of the program *}
   writeln;
   writeln;
 
